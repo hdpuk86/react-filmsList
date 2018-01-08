@@ -9,6 +9,7 @@ class FilmTable extends React.Component {
     return(
       <div className="filmTable">
         {films}
+        <a href="http://www.imdb.com/calendar/?region=gb&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=1970868962&pf_rd_r=0SE2X76X1B2AN3PHGNXC&pf_rd_s=right-2&pf_rd_t=15061&pf_rd_i=homepage&ref_=hm_otw_sm">See more opening this week >></a>
       </div>
     )
   }

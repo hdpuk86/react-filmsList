@@ -3,7 +3,7 @@ import React from 'react';
 class ShowtimesButton extends React.Component {
   render(){
     return(
-      <button>
+      <button className="showtimes-btn">
         Get Showtimes >>
       </button>
     )

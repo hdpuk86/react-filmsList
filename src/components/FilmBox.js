@@ -21,12 +21,11 @@ class FilmBox extends React.Component {
 
   render(){
     return(
-      <React.Fragment>
-        <h1>UK Opening This Week</h1>
+      <div className="container">
+        <h3>UK Opening This Week</h3>
         <FilmTable films={this.state.films}/>
-        <a href="#">See more opening this week >></a>
-        <ShowtimesButton/>
-      </React.Fragment>
+        <ShowtimesButton />
+      </div>
     )
   }
 };
