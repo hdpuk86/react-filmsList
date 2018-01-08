@@ -16,12 +16,13 @@ a:visited {
 }
 
 .container {
-  width: 400px;
+  width: 500px;
   padding: 10px;
 }
 
 .filmTable {
   color: #136cb2;
+  font-size: 14px;
   border-bottom: 1px solid #ccc;
   padding: 20px;
 }
@@ -30,6 +31,11 @@ a:visited {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.film-title {
+  display: flex;
+  flex-direction: row;
 }
 
 .showtimes-btn {
@@ -42,4 +48,8 @@ a:visited {
   text-decoration: none;
   width: 100%;
   margin-top: 20px;
+}
+
+.more-films {
+  padding: 15px 0px;
 }
