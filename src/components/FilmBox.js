@@ -1,5 +1,6 @@
 import React from 'react';
 import FilmTable from './FilmTable';
+import ShowtimesButton from './ShowtimesButton';
 
 class FilmBox extends React.Component {
 
@@ -21,7 +22,10 @@ class FilmBox extends React.Component {
   render(){
     return(
       <React.Fragment>
+        <h1>UK Opening This Week</h1>
         <FilmTable films={this.state.films}/>
+        <a href="#">See more opening this week >></a>
+        <ShowtimesButton/>
       </React.Fragment>
     )
   }
