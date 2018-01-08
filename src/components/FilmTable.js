@@ -1,9 +1,15 @@
 import React from 'react';
+import Film from './Film';
 
 class FilmTable extends React.Component {
   render(){
+    const films = this.props.films.map(film => {
+      return <Film title={film.title} times={film.times} key={film.id}/>
+    })
     return(
-      <h1>This is a film table</h1>
+      <div className="filmTable">
+        {films}
+      </div>
     )
   }
 };
